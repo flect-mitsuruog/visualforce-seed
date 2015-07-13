@@ -1,2 +1,3 @@
 # visualforce-seed
-[experiment]
+
+__[NOTICE] This project is experiment.__
