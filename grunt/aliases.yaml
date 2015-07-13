@@ -1,0 +1,10 @@
+build:
+  description: 'build tasks'
+  tasks:
+    - 'clean:dist'
+    - 'nv-build'
+deploy:
+  description: 'build tasks'
+  tasks:
+    - 'build'
+    - 'nv-deploy'

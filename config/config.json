@@ -1,0 +1,14 @@
+{
+  "paths": {
+    "app": "input",
+    "dist": "output"
+  },
+  "apexPageFlags": {
+    "standardController": "<target-controller-api-name>",
+    "showHeader": false,
+    "standardStyleSheets": false,
+    "applyBodyTag": false,
+    "applyHtmlTag": false,
+    "docType": "html-5.0"
+  }
+}
