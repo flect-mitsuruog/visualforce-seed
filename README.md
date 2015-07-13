@@ -6,6 +6,12 @@ __[NOTICE] This project is experiment. Don't use in production environment.__
 ## 前提条件(precondition)
 
 * node >= 0.12
+* grunt-cli >= 0.1.13
+
+grunt-cliのインストール
+```
+npm install -g grunt-cli
+```
 
 ## インストール方法(install) 
 
