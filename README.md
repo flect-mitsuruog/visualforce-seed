@@ -7,6 +7,7 @@ __[NOTICE] This project is experiment. Don't use in production environment.__
 
 * node >= 0.12
 * grunt-cli >= 0.1.13
+* ant >= 1.9.5
 
 grunt-cliのインストール
 ```
