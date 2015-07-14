@@ -94,13 +94,42 @@ input/staticresources/sampleResources
 ```html
 例）css
 <link rel="stylesheet" href="../staticresources/sampleResources/css/normalize.css">
-
 例）javascript
 <script src="../staticresources/sampleResources/js/main.js"></script>
-
 例）image
 <img src="../staticresources/sampleResources/img/logo.png" alt="">
 ```
+
+> 外部リソースをロードする場合は以下の用にapexタグを追加します。  
+```
+例）css  
+<apex:stylesheet value="<URL>"/>  
+例）javascript  
+<apex:includeScript value="<URL>">  
+```
+
+### 標準コントローラーの設定
+
+`config/config.json`のstandardControllerを変更します。
+
+```
+{
+  "paths": {
+    "app": "input",
+    "dist": "output"
+  },
+  "apexPageFlags": {
+    "standardController": "<target-controller-api-name>",
+    "showHeader": false,
+    "standardStyleSheets": false,
+    "applyBodyTag": false,
+    "applyHtmlTag": false,
+    "docType": "html-5.0"
+  }
+}
+```
+
+> TODO 現在、複数のVFページを作成した場合、それぞれ別のstandardControllerを設定することができません。 
 
 ### サンプルdeploy
 
